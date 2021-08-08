@@ -1,0 +1,201 @@
+/* Fonts Start */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* Fonts End */
+/* common styles and utilities start*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* common styles and utilities end*/
+
+/* ---------------------------------
+Header Styles Start
+------------------------------------ */
+
+/* Navigation bar Styles Start */
+header{
+    display: flex;
+    justify-content: center;
+    background-color:#2D25A0;
+    /* width: 1440px; */
+}
+nav{
+    width: 1160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 36px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+nav .login-button p:hover{
+    background-color:#f51d6cef ;
+}
+nav .login-button p{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+nav .login-button p, a {
+    color: white;
+}
+.login-button p i{
+    height: 14px;
+    width: 14px;
+    margin-right: 8px;
+}
+.login-button p a{
+    font-size: 16px;
+    text-decoration: none;
+}
+/* Navigation bar Styles End */
+
+/* ---------------------------------
+Header Styles End
+------------------------------------ */
+
+/* Main part styles start */
+
+/* Top Banner Styles Start */
+
+.top-banner{
+    background-color:#2D25A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-banner{
+    margin-right: 102px;
+}
+.left-side-banner h1{
+    margin-top: 0;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.link-button a{
+    background-color: #E02C6D;
+    padding: 10px 23px;
+    text-decoration: none;
+}
+.link-button a:hover{
+    background-color: #f02871 ;
+}
+.right-side-banner .banner-image img{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 67px;
+}
+
+/* Top Banner Styles End */
+
+/* Players Section's Styles Start */
+    .players-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 55px;
+    }
+    .players{
+        width: 1050px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .player{
+        width: 330px;
+        /* height: 474px; */
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    }
+    .player-image img{
+        width: 300px;
+        height: 256px;
+        margin-top: 15px;
+    }
+    .player-details{
+        padding: 15px;
+    }
+    .player-name h3{
+        font-size: 28px;
+        margin-top: 0;
+        margin-bottom: 0px;
+    }
+    .about-player p{
+        color: #6C6C6C;
+
+    }
+
+/* Players Section's Styles End */
+
+/* Bottom Banner Style Start */
+.bottom-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1050px;
+}
+.bottom-left-side-banner{
+    margin-right: 102px;
+}
+.bottom-left-side-banner h1{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 48px;
+}
+.bottom-left-side-banner p{
+    color: #6C6C6C;
+    margin-top: 0px;
+    margin-bottom: 24px;
+}
+.bottom-link-button a{
+    background-color: #E02C6D;
+    padding: 10px 23px;
+    text-decoration: none;
+}
+.bottom-link-button a:hover{
+    background-color: #f02871 ;
+}
+.right-side-banner .banner-image img{
+    width: 557px;
+    height: 427px;
+    margin-top: 67px;
+}
+
+/* Bottom Banner Style End */
+/* Main part styles end */
+
+/* Footer Styles Start */
+footer{
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-image img{
+    width: 483px;
+    height: 110px;
+}
+.social-icons a img{
+    width: 32px;
+    height: 32px;
+}
+
+/* Footer Styles End */
